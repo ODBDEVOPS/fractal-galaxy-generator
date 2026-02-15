@@ -1,0 +1,52 @@
+
+[
+  { 
+    "id": "entropy_miner", "name": "Entropy Miner", "family": "void", "role": "gatherer", 
+    "bonusType": "production", "bonusValue": 1.2, "avatarColor": "bg-indigo-600",
+    "skills": ["Deep Core Drilling", "Resonance Tuning"], "tools": ["Thermal Pick", "Void Stabilizer"],
+    "affinities": ["entropy_dust", "void_crystals"], "modules": ["Basic Extraction"],
+    "unlockCriteria": { "metaLevel": 1 }
+  },
+  { 
+    "id": "astral_gardener", "name": "Astral Gardener", "family": "astral", "role": "gatherer", 
+    "bonusType": "production", "bonusValue": 1.3, "avatarColor": "bg-emerald-500",
+    "skills": ["Hydroponic Weaving", "Spectral Pruning"], "tools": ["Light Shears", "Bio-Probe"],
+    "affinities": ["astral_bloom", "star_pollen"], "modules": ["Seed Cultivation"],
+    "unlockCriteria": { "galaxies": 2, "resources": [{ "resource": "astral_bloom", "amount": 5 }] }
+  },
+  { 
+    "id": "chrono_architect", "name": "Chrono Architect", "family": "quantum", "role": "technician", 
+    "bonusType": "discovery", "bonusValue": 1.4, "avatarColor": "bg-cyan-400",
+    "skills": ["Temporal Mapping", "Event Horizon Analysis"], "tools": ["Chrono-Compass", "Tachyon Sensor"],
+    "affinities": ["quantum_fluid", "chrono_shards"], "modules": ["Warp Calculation"],
+    "unlockCriteria": { "galaxies": 3, "metaLevel": 2 }
+  },
+  { 
+    "id": "prism_blacksmith", "name": "Prism Blacksmith", "family": "crystal", "role": "refiner", 
+    "bonusType": "combat", "bonusValue": 1.25, "avatarColor": "bg-blue-600",
+    "skills": ["Crystalline Forging", "Refractive Hardening"], "tools": ["Sonic Hammer", "Laser Forge"],
+    "affinities": ["void_crystals", "prism_shards"], "modules": ["Alloy Synthesis"],
+    "unlockCriteria": { "victories": 5, "resources": [{ "resource": "void_crystals", "amount": 10 }] }
+  },
+  { 
+    "id": "swarm_genetics", "name": "Swarm Geneticist", "family": "swarm", "role": "technician", 
+    "bonusType": "utility", "bonusValue": 1.15, "avatarColor": "bg-rose-500",
+    "skills": ["Hatchery Management", "Genetic Grafting"], "tools": ["Bio-Scalpel", "Hive-Link"],
+    "affinities": ["swarm_cells", "brood_spores"], "modules": ["Brood Acceleration"],
+    "unlockCriteria": { "victories": 10, "metaLevel": 3 }
+  },
+  { 
+    "id": "abyss_siphoner", "name": "Abyss Siphoner", "family": "void", "role": "gatherer", 
+    "bonusType": "production", "bonusValue": 1.4, "avatarColor": "bg-purple-900",
+    "skills": ["Abyssal Suction", "Dark Energy Containment"], "tools": ["Vacuum Siphon", "Void Jar"],
+    "affinities": ["abyss_core", "void_crystals"], "modules": ["High-Pressure Flow"],
+    "unlockCriteria": { "victories": 15, "metaLevel": 4 }
+  },
+  { 
+    "id": "logic_weaver", "name": "Logic Weaver", "family": "quantum", "role": "technician", 
+    "bonusType": "discovery", "bonusValue": 1.5, "avatarColor": "bg-cyan-600",
+    "skills": ["Algorithm Braiding", "Error Correction"], "tools": ["Neural Array", "Logic Probe"],
+    "affinities": ["quantum_fluid", "paradox_dust"], "modules": ["AI Optimization"],
+    "unlockCriteria": { "galaxies": 10, "metaLevel": 5 }
+  }
+]

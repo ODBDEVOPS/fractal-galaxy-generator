@@ -1,0 +1,83 @@
+
+[
+  {
+    "id": "void_reaver",
+    "label": "Void Reaver",
+    "archetype": "Aggressor",
+    "primaryFamily": "void",
+    "allowedProfessions": ["entropy_miner", "abyss_siphoner"],
+    "bonuses": {
+      "production": 1.05,
+      "combat": 1.25,
+      "discovery": 1.0
+    },
+    "ultimatePerk": {
+      "name": "Oblivion Protocol",
+      "description": "Increases combat power by 50% for 30 seconds after securing a sector."
+    }
+  },
+  {
+    "id": "astral_weaver",
+    "label": "Astral Weaver",
+    "archetype": "Botanist",
+    "primaryFamily": "astral",
+    "allowedProfessions": ["astral_gardener"],
+    "bonuses": {
+      "production": 1.30,
+      "combat": 0.90,
+      "discovery": 1.10
+    },
+    "ultimatePerk": {
+      "name": "Celestial Bloom",
+      "description": "Every 5 minutes, instantly generates a massive burst of Astral Bloom resources."
+    }
+  },
+  {
+    "id": "quantum_architect",
+    "label": "Quantum Architect",
+    "archetype": "Scholar",
+    "primaryFamily": "quantum",
+    "allowedProfessions": ["chrono_architect", "logic_weaver"],
+    "bonuses": {
+      "production": 1.0,
+      "combat": 1.0,
+      "discovery": 1.40
+    },
+    "ultimatePerk": {
+      "name": "Timeline Collapse",
+      "description": "Scanning a sector has a 20% chance to immediately discover it regardless of progress."
+    }
+  },
+  {
+    "id": "crystal_sentinel",
+    "label": "Crystal Sentinel",
+    "archetype": "Guardian",
+    "primaryFamily": "crystal",
+    "allowedProfessions": ["prism_blacksmith"],
+    "bonuses": {
+      "production": 1.10,
+      "combat": 1.15,
+      "discovery": 0.90
+    },
+    "ultimatePerk": {
+      "name": "Prismatic Shield",
+      "description": "Reduces all incoming fleet damage by 40% and negates first retreat penalty."
+    }
+  },
+  {
+    "id": "swarm_coordinator",
+    "label": "Swarm Coordinator",
+    "archetype": "Hive-Mind",
+    "primaryFamily": "swarm",
+    "allowedProfessions": ["swarm_genetics"],
+    "bonuses": {
+      "production": 1.20,
+      "combat": 1.10,
+      "discovery": 1.0
+    },
+    "ultimatePerk": {
+      "name": "Recursive Spawning",
+      "description": "Increases effectiveness of all specialists by 5% for every other active specialist."
+    }
+  }
+]
